@@ -9,6 +9,7 @@ In case the support/snapcraft.yaml file is accepted it can be published in the
 Snap Store [2] which is required for people to easily install it.
 
 ## Build/Snap
+```
 $ sudo apt install -y build-essential squashfuse
 $ sudo snap install --classic snapcraft
 $ git clone https://github.com/shadowsocks/chinadns-snap.git
@@ -33,8 +34,10 @@ Staging chinadns
 Priming chinadns 
 Snapping 'chinadns' |                                                                                          
 Snapped chinadns_master_amd64.snap
+```
 
 ## Install/Contents
+```
 $ sudo snap install ./chinadns_master_amd64.snap --dangerous --classic
 chinadns master installed
 
@@ -54,6 +57,7 @@ $ find /snap/chinadns/
 /snap/chinadns/x1/share
 /snap/chinadns/x1/share/chnroute.txt
 /snap/chinadns/x1/share/iplist.txt
+```
 
 ## Testing
 Run chinadns in a shell:
@@ -93,8 +97,9 @@ caishikou.redirect.	3600	IN	A	127.0.0.1
 ```
 
 ## Reference
-[1] "Creating a snap" in https://docs.snapcraft.io/creating-a-snap/6799
-[2] "Share with your friends" in https://docs.snapcraft.io/c-c-applications/7817
-[3] "Demystifying Snap Confinement" in https://snapcraft.io/blog/demystifying-snap-confinement
-[4] "Commands and aliases" in https://docs.snapcraft.io/commands-and-aliases/3950
+
+ 1. "Creating a snap" in https://docs.snapcraft.io/creating-a-snap/6799
+ 2. "Share with your friends" in https://docs.snapcraft.io/c-c-applications/7817
+ 3. "Demystifying Snap Confinement" in https://snapcraft.io/blog/demystifying-snap-confinement
+ 4. "Commands and aliases" in https://docs.snapcraft.io/commands-and-aliases/3950
 
